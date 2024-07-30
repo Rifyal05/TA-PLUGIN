@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+NOMOR 1:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Apakah yang dimaksud dengan Variable dan tipe data didlam bahasa Kotlin? Jelaskan jenis-jenisnya!
+JAWABAN:
+
+A. Apa itu Variable:
+Variable dalam Kotlin adalah suatu lokasi di memory yang digunakan untuk menyimpan nilai-nilai yang dapat berubah selama program berjalan.
+Variable memungkinkan kita untuk menyimpan data dan mengaksesnya di berbagai bagian program.
+
+B. Jenis-Jenis Variable:
+    1. Variabel Konstan (val): Variabel yang nilainya tidak dapat di ubah
+    2. Variabel Variabel (var): Variabel yang nilainya dapat di ubah
+
+C. Apa itu tipe data:
+Tipe data adalah jenis data yang dapat disimpan dalam sebuah variable.
+
+D. Jenis-jenis tipe data:
+    1. String : jenis data yang dapat dimuat 'Teks'
+    2. Int : jenis data yang dapat dimuat 'Angka(seluruh bilangan bulat)'
+    3. Float : jenis data yang dapat dimuat 'Angka desimal (yang kurang akurat dengan double) dan memiliki f atau F di akhir angka'
+    4. Double : jenis data yang dapat dimuat 'Angka desimal'
+    5. Boolean : jenis data yang dapat dimuat 'True atau False'
+    6. Char : jenis data yang dapat dimuat 'Satu karakter'
+    7. Array : jenis data yang dapat dimuat 'Kumpulan nilai yang sama(menyimpan banyak objek)'
+    8. String : jenis data yang dapat dimuat 'kumpulan dari banyak karakter'
+    9. Int, Long, Short,Byte : jenis data yang dapat dimuat 'Angka'
+    10. Boolean : Hanya memiliki 2 nilai
+    
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+NOMOR 2:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Ada berapakah percabangan dalam bahasa pemrograman kotlin? Sebutkan dan jelaskan perbedaan dari masing-masing percabangan tersebut!
+JAWABAN:
+
+A. Ada berapa percabangan:
+Pada bahasa pemrograman Kotlin, terdapat 2 jenis percabangan, yaitu if-else dan when
+
+B. Perbedaan utama antara if-else dan when di Kotlin:
+|     Fitur     |                if-else                 |                      when                      |
+|---------------|----------------------------------------|--- --------------------------------------------|
+| Kondisi       | Berdasarkan ekspresi boolean           | Berdasarkan nilai ekspresi                     |
+| Jumlah cabang | Terbatas, biasanya dua (if dan else)   | Bisa banyak, lebih ringkas untuk banyak cabang |
+| Sifat         | Lebih umum, bisa untuk logika kompleks | Lebih spesifik untuk pemeriksaan nilai         |
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+NOMOR 3:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Apakah yang dimaksud tentang function dalam bahasa Kotlin?
+JAWABAN:
+
+A. Apa itu function?
+Function dalam bahasa Kotlin adalah suatu blok kode yang dapat dipanggil kembali untuk melakukan
+suatu tugas tertentu. Function membantu memecah program besar menjadi bagian-bagian yang lebih kecil dan teratur
+sehingga memudahkan pengelolaan dan pemahaman kode.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+NOMOR 4:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Apa yang dimaksud dengan function generic dalam kotlin? Jelaskan perbedaannya!!
+JAWABAN:
+
+A. Apa itu function generic?
+Function generic dalam bahasa Kotlin adalah suatu function(fungsi) yang dapat beroperasi pada berbagai tipe data tanpa harus menulis ulang kode untuk setiap tipenya.
+Ini karena kita menggunakan parameter tipe (type parameter), yang bertindak sebagai pengganti untuk tipe data yang sebenarnya.
+sehingga kita dapat meminimalkan kode yang berulang dan menjadikan penggunaannya lebih mudah.
+
+B. Perbedaan antara function biasa dan function generic:
+
+
+|       Fitur        |                                    Function (Fungsi)                                         |                  Function Generic (Fungsi Generik)                      |
+|--------------------| ---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Tipe Data          | Bekerja dengan tipe data yang spesifik.                                                      | Bekerja dengan berbagai tipe data.                                      |
+| Fleksibilitas      | Kurang fleksibel, perlu fungsi terpisah untuk tipe data berbeda.                             | Sangat fleksibel, satu fungsi untuk banyak tipe data.                   |
+| Penggunaan Kembali | Terbatas, perlu menduplikasi kode jika melakukan operasi yang serupa pada tipe data berbeda. | Tinggi, satu fungsi dapat digunakan kembali untuk berbagai tipe.        |
+| Keamanan Tipe      | Aman, tipe data diperiksa saat kompilasi.                                                    | Aman, tipe data diperiksa saat kompilasi dan runtime (saat dijalankan). |
