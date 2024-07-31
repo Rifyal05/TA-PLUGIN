@@ -4,7 +4,7 @@ fun main() {
     val mataPelajaran = listOf("Bahasa Indonesia", "Bahasa Inggris", "Matematika", "IPA")
     val nilaiMap = mutableMapOf<String, Int>()
     println("---------------------------------")
-    println("Program Berhasil Berjalan")
+    println("Program Berhasil Berjalan :!!")
     println("Masukan Nilai Untuk Setiap Matkul")
     println("---------------------------------")
     for (mapel in mataPelajaran) {
@@ -15,7 +15,8 @@ fun main() {
             print("---------------------------------\n")
 
             if (nilai == null) {
-                println("Input tidak valid. Masukkan angka.")
+                println("Input tidak valid. Masukkan Angka!!")
+                println("---------------------------------")
             }
         } while (nilai == null)
         nilaiMap[mapel] = nilai
